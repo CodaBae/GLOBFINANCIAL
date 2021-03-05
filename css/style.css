@@ -1395,3 +1395,10 @@ body::before {
 }
 
 
+
+
+.primary-title {
+    margin-bottom: 20px;
+    white-space: n;
+    line-height: 35px;
+}
