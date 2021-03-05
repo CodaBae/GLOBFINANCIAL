@@ -6,7 +6,7 @@ Author URI: http://envalab.com/
 Description: Enva – is a creative, unique and universal coming soon template that specially designed for coming soon/under construction related websites. It can be use for any kind of Business, Agency, Hotel, Restaurant, Personal, Corporate, Gym, Contract, Maintenance, Tours & Travels, Product Launch, Service Launch etc related website landing. It’s every sections like About Us will help you to tell about your company and up-coming website or products, also Contact Us section will help you to get mails from interested people even before you launch your site.
 Version: 1.0
 Style: 1
-Primary Color: #2b3950
+Primary Color: #373435
 */
 
 /*
@@ -172,7 +172,7 @@ button:hover {
 }
 
 .color-blue * {
-	color: #2b3950;
+	color: #373435;
 }
 
 .gray-bg-1 {
@@ -386,7 +386,7 @@ textarea.form-control {
     display: none;
 }
 #contact-form .success  {
-    color: #2b3950;
+    color: #373435;
 }
 #contact-form .error  {
     color: #c11313;
@@ -436,7 +436,7 @@ textarea.form-control {
 	content: '';
 	height: 1px;
 	width: 30px;
-	background-color: #2b3950;
+	background-color: #373435;
 	display: block;
 	margin: 0 auto;
 	position: relative;
@@ -548,7 +548,7 @@ textarea.form-control {
 .social-icons li a {
 	display: block;
 	border-width: 0.25px;
-	border-color: #2b3950;
+	border-color: #373435;
 	border-style: solid;
 	width: 30px;
 	height: 30px;
