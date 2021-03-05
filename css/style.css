@@ -1381,3 +1381,17 @@ body::before {
     background-color: #fff;
     opacity: 0.5;
 }
+
+@media screen and (max-width: 767px){
+	html, body {
+		height: 100vh;
+	}
+	.body-bg {
+		background-image: url(../img/body-bg.jpg);
+		background-position: top -30px center;
+		height: 100ch;
+	}
+
+}
+
+
