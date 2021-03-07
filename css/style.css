@@ -1421,6 +1421,13 @@ body::before {
 
   }
 
+  .modal-content {
+    padding: 0 35px;
+    width: 72%;
+    color: black;
+}
+
+
 
   .header-right {
     float: none !important;
@@ -1430,8 +1437,8 @@ body::before {
 }
 .soc1 {
     position: absolute;
-    margin-left: 49% !important;
-    margin-top: -26% !important;
+    margin-left: 48% !important;
+    margin-top: 77% !important;
 }
   .padding-big {
     padding: 30px 0;
@@ -1587,4 +1594,61 @@ body {
     background: #71b106;
     color: white;
     padding: 5px;
+}
+
+#wavybg-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    background: #fff !important;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.ul{
+	list-style-type: circle;
+
+	width: 30%;
+    /* text-align: left; */
+    margin: auto;
+
+}
+
+
+.bg-img {
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center center; */
+    background: #ffffff;
+}
+
+.primary-title1 {
+    margin-bottom: 20px;
+    line-height: 21px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background: #71b106;
+    width: 50%;
+    padding: 3px;
+    margin: auto;
+    margin-bottom: 14px;
+    margin-top: 6px;
+    color: white;
+}
+
+.modal-content {
+    padding: 0 35px;
+    color: black;
+}
+
+
+.soc1 {
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 27%;
 }
