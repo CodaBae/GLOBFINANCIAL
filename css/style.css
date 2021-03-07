@@ -1438,7 +1438,7 @@ body::before {
 .soc1 {
     position: absolute;
     margin-left: 48% !important;
-    margin-top: 77% !important;
+    margin-top: 85% !important;
 }
   .padding-big {
     padding: 30px 0;
@@ -1463,19 +1463,20 @@ body::before {
     font-size: 20px;
   }
 
+
   .primary-title1 {
     margin-bottom: 20px;
     line-height: 21px;
     margin-bottom: 20px;
     font-size: 20px;
     background: #71b106;
-    width: 30%;
+    width: 50%;
     padding: 3px;
     margin: auto;
-    margin-bottom: 14px;
+    margin-bottom: 0px;
     margin-top: 6px;
     color: white;
-  }
+}
   .text-light {
     font-weight: 300;
     font-size: 15px;
@@ -1486,6 +1487,23 @@ body::before {
     font-size: 15px;
     line-height: 25px;
   }
+
+  .primary-title1 {
+    margin-bottom: 20px;
+    line-height: 21px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background: #71b106;
+    width: 50%;
+    padding: 3px;
+    margin: auto;
+    margin-bottom: 0px;
+    margin-top: 6px;
+    color: white;
+    margin-left: 89px !important;
+    width: 50% !important;
+    padding: 3px !important;
+}
 }
 
 .bg-img {
@@ -1651,4 +1669,62 @@ body {
     position: absolute;
     margin-left: 8%;
     margin-top: 27%;
+}
+
+.primary-title1 {
+    margin-bottom: 20px;
+    line-height: 21px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background: #71b106;
+    width: 29%;
+    padding: 3px;
+    margin: auto;
+    margin-bottom: 0px;
+    margin-top: 6px;
+    color: white;
+    margin-left: 89%;
+    margin-top: 7%;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.ishtext{
+	margin: -13px 0 13px !important;
+
+}
+
+
+f{
+	background: royalblue;
+    color: white;
+    border-color: royalblue;
+}
+
+.icofont-social-facebook:before {
+    content: "\ee08";
+    color: royalblue;
+    font-size: 1.8rem;
+}
+
+.icofont-social-twitter:before {
+    content: "\ee34";
+    color: #41a5e1;
+	font-size: 1.8rem;
+
+}
+
+.icofont-social-instagram:before {
+    content: "\ee14";
+	font-size: 1.8rem;
+
+    color: brown;
+}
+
+.icofont-social-dribbble:before {
+    content: "\f11b";
+	color: skyblue;
+
+    font-size: 1.8rem;
 }
