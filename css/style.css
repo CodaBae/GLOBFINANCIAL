@@ -1506,7 +1506,7 @@ body::before {
     font-weight: 300;
     font-size: 15px;
     line-height: 16px;
-    white-space: pre-wrap  !important;
+    white-space: normal !important;
 }
 }
 
