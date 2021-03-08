@@ -1438,11 +1438,10 @@ body::before {
 .soc1 {
     position: absolute;
     margin-left: 48% !important;
-    margin-top: 85% !important;
+    margin-top: 140% !important;
 }
-  .padding-big {
-    padding: 30px 0;
-    padding-top: 1% !important;
+.padding-big {
+    padding: 1px 0  !important;
 }
   .gray-bg-1 {
     background-color: transparent;
@@ -1503,6 +1502,12 @@ body::before {
     margin-left: 89px !important;
     width: 50% !important;
     padding: 3px !important;
+}
+.text-light {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 16px;
+    white-space: pre-wrap  !important;
 }
 }
 
@@ -1696,28 +1701,22 @@ body {
 }
 
 
-f{
-	background: royalblue;
-    color: white;
-    border-color: royalblue;
-}
-
 .icofont-social-facebook:before {
     content: "\ee08";
     color: royalblue;
-    font-size: 1.8rem;
+    font-size: 3.5rem;
 }
 
 .icofont-social-twitter:before {
     content: "\ee34";
     color: #41a5e1;
-	font-size: 1.8rem;
+    font-size: 3.5rem;
 
 }
 
 .icofont-social-instagram:before {
     content: "\ee14";
-	font-size: 1.8rem;
+    font-size: 3.5rem;
 
     color: brown;
 }
@@ -1726,5 +1725,93 @@ f{
     content: "\f11b";
 	color: skyblue;
 
-    font-size: 1.8rem;
+    font-size: 3.5rem;
+}
+
+.bot{
+	margin-bottom: 0% !important;
+}
+
+.ul {
+    list-style-type: circle;
+    width: 64%;
+    /* text-align: left; */
+    margin: auto;
+}
+
+
+li ::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+	color: orange;
+
+}
+
+
+.icofont-check-circled:before {
+    content: "\efac";
+    color: #ffa603;
+}
+
+
+.text-light {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 16px;
+    white-space: nowrap;
+}
+
+.icofont-check-circled:before {
+    content: "\efac";
+    color: #ffa603;
+    font-weight: bolder;
+}
+
+
+.social-icons li a {
+    display: block;
+    border-width: 0.25px;
+    border-color: Black;
+    border-style: solid;
+    width: 50px;
+    height: 50px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.social-icons li a {
+    display: block;
+    border-width: 0.25px;
+    border-color: Black;
+    border-style: solid;
+    width: 50px;
+    height: 50px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 13%;
+}
+
+.soc1 {
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 35%;
+}
+
+.primary-title1 {
+    margin-bottom: 20px;
+    line-height: 21px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background: #71b106;
+    width: 29%;
+    padding: 3px;
+    margin: auto;
+    margin-bottom: 0px;
+    margin-top: 6px;
+    color: white;
+    margin-left: 89%;
+    margin-top: 7%;
+    text-align: center;
+    padding: 6px;
 }
