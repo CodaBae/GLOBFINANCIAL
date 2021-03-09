@@ -1435,9 +1435,9 @@ body::before {
     /* margin-bottom: 5% !important; */
 }
 .soc1 {
-    position: absolute;
-    margin-left: 48% !important;
-    margin-top: 153% !important;
+  position: absolute;
+  margin-left: 48% !important;
+  margin-top: 20% !important;
 }
 .padding-big {
     padding: 1px 0  !important;
