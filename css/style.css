@@ -1814,3 +1814,10 @@ li ::marker {
     text-align: center;
     padding: 6px;
 }
+
+
+
+.primary-title1 {
+ 
+  white-space: nowrap;
+}
